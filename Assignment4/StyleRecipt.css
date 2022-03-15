@@ -1,0 +1,416 @@
+/* week3 */
+body
+{
+    background: linear-gradient(#9e4040, #69313c);
+}
+/* week4 */
+    .grid-container 
+      {
+        display: grid;
+        grid-template-columns: 30% 65% auto ;
+        grid-gap: 5px;
+       
+      }
+    
+    .grid-container > div
+    {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 20px;
+       
+    }
+    
+    #header
+    {
+        color: antiquewhite;
+        grid-column: 1 / span 1;
+        font-family:'Raleway', sans-serif;
+        font-size: 35px;
+        font-weight: bolder;
+        text-align: left;
+    }
+    
+     #contact
+     {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 30px;
+        font-weight: lighter;
+        text-align: right;
+     }
+
+     #Menu
+     {
+        grid-column: 1 / span 3;
+        padding-top: 5%;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 60px;
+        font-weight: bolder;
+        text-align: center;
+     }
+
+     @media only screen and (max-width: 768px)
+     {
+        .grid-container 
+        {
+          display: grid;
+          grid-template-columns: 52% 45%;
+          grid-gap: 10px;
+        }
+        #header
+        {
+            color: antiquewhite;
+            font-family:'Raleway', sans-serif;
+        }
+    
+
+    }
+    @media only screen and (max-width: 480px) {
+        .grid-container {
+            display: grid;
+            grid-template-columns: 85%;
+            grid-gap: 2px;
+          }
+
+          #header
+          {
+            color: antiquewhite;
+            font-family:'Raleway', sans-serif;
+            font-size: 20px;
+            font-weight: bolder;
+            text-align: left;
+          }
+
+          #contact
+          {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 20px;
+            font-weight: lighter;
+            text-align: right;
+          }
+
+          #Menu
+          {
+             font-family: 'Josefin Sans', sans-serif;
+             font-size: 30px;
+             font-weight: bolder;
+             text-align: center;
+             padding-top: 10%;
+          }
+
+
+    }        
+        
+    
+/* week3 */
+#cinnamon1
+{
+    vertical-align: middle;
+    margin-left: auto;
+    border-radius: 20%;
+    width: 30%;
+    height: 30%;
+}
+
+.center,.center2, .center3, .center4, 
+.center5, .center6, .center7
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.container
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 13px;
+    text-align: left;
+    max-width: 1300px;
+    height: 300;
+    margin: 0 auto;
+    border: 1px solid;
+    border-color:black;
+    border-radius: 2%;
+    border-width: 5px;
+    background-color: rgb(233, 233, 233);
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+h1
+{
+     
+    font-family:'Space Grotesk', sans-serif;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+
+h3,h4,h5
+{
+    color: antiquewhite;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.container2
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 13px;
+    max-width: 1300px;
+    height: 680px;
+    margin: 0 auto;
+    border: 1px solid;
+    border-color:black;
+    border-radius: 2%;
+    border-width: 5px;
+    background-color: rgb(233, 233, 233);
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+   
+}
+
+#cinnamon2, #cinnamon21
+{
+    margin-right: auto;
+    border-radius: 10%;
+    width: 28%;
+
+}
+.container3
+{
+    max-width: 1280px;
+    height: 600;
+    margin: 0 auto;
+    border: 1px solid;
+    border-color:black;
+    border-width: 5px;
+    border-radius: 5%;
+    background-color: rgb(233, 233, 233);
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+ #cinnamon4, #cinnamon5,#cinnamon6
+{
+    vertical-align: middle;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    border-radius: 20%;
+    width: 20%;
+    height: 40%;
+}
+
+#cinnamon3
+{
+    position: relative;
+    top: 2px;
+    border-radius: 20%;
+    width: 22%;
+    height: 54%;
+}
+
+section
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: antiquewhite;
+    text-align: center;
+    
+}
+
+a
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: wheat;  
+}
+
+@media only screen and (max-width: 1024px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto Slab', serif;
+    }
+    .Main{
+        grid-column: 1 /  2;
+        position: relative;
+        width: 100%;
+        height: 50vh;
+        background: #0a1c2a;
+    }
+    
+    .logo{
+        width: 30%;
+    }
+    
+    nav{
+        font-family: 'Roboto Slab', serif;
+        font-size: 20px;
+        display: flex;
+        width: 84%;
+        margin: auto;
+        padding: 20px 0;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .mypic{
+        grid-column: 1 / span 2;
+        margin-left: 40%;
+    }
+    
+    .detail{
+        grid-column: 1 / span 2;
+        color: #ffa600;
+        font-family: 'Roboto Slab', serif;
+        margin-left: 8%;
+        margin-top: 12%;
+    }
+    
+    .detail h1{
+        font-size: 50px;  
+    }
+    .detail h2{
+        font-size: 30px;  
+    }
+    
+    .detail p{
+        color: #ffc558;
+    }
+    
+    .mypic{
+        opacity: 95%;
+        position: absolute;
+        bottom: 0;
+    }
+    
+    .about{
+        background: #a37726;
+        padding: 50px 0px;
+    }
+    
+    
+    .education{
+       margin-left: 10%;
+    }
+    
+    .about h3{
+        font-size: 50px;
+    }
+    
+    .about-text{
+        grid-column: 1 / span 2;
+        color: #0a1c2a;
+        font-family: 'Roboto Slab', serif;
+        font-size: 20px;
+        margin-left: 5%;
+    }
+    
+    .container1{
+        max-width: 95%;
+        margin: 5 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .work-link{
+        position: relative;
+        font-family: 'Roboto Slab', serif;
+        background: #0a1c2a;
+        padding: 50px 0px;
+        color: #ffa600;
+    }
+    
+    .work-link {
+        text-align: center;
+        font-size: 50px;
+    }
+    
+    .work-link span{
+        font-size: 30px;
+    }
+    
+    .work-link img {
+       grid-column: 1 / span 2;
+    
+    }
+    
+    .skills{
+        font-family: 'Roboto Slab', serif;
+        background: #0a1c2a;
+        padding: 50px 0px;
+        color: #ffa600;
+    }
+    
+    .skills h5{
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    .box{
+        margin-right: 2%;
+        grid-column: 1 / span 1;
+        padding-left: 15%;
+        padding-top: 2%;
+    }
+    
+    .assignment-link{
+        font-family: 'Roboto Slab', serif;
+        background: #a37726;
+        padding: 50px 0px;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .assignment-link h6{
+        font-size: 40px;
+        color: #0a1c2a;
+    }
+    
+    .assignment-link span{
+        font-size: 40px;
+        color: #232b31;
+    }
+    
+    .assignment-link span{
+        font-size: 40px;
+        color: #232b31;
+    }
+    
+    .assignment-link a{
+        color: #311926;
+    }
+    
+    .contact-ect{
+        background: #0a1c2a;
+        padding: 50px 0px;
+        text-align: center;
+    }
+    
+    .contact-ect h7{
+        font-size: 30px;
+        color: #ffa600;
+        text-align: center;
+    }
+    
+    .contact-ect li a{
+        font-size: 20px;
+        color: #ffa600;
+    }
+    
+    .contact-ect a{
+        font-size: 20px;
+        color: #ffc558;
+    }
+    }
